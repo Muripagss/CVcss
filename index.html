@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online CV</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            margin: 0; 
+            padding: 0; 
+            text-align: center; 
+            background-color: #f4f4f4;
+        }
+
+        header { 
+            background-color: #07b2dc; 
+            color: white; 
+            padding: 20px; 
+        }
+
+        header h2 {
+            margin-bottom: 10px;
+        }
+
+        ul { 
+            list-style-type: none; 
+            padding: 0;
+        }
+
+        ul li { 
+            display: inline; 
+            margin: 0 10px; 
+        }
+
+        ul li a { 
+            text-decoration: none; 
+            color: white; 
+            font-weight: bold;
+        }
+
+        section img { 
+            width: 250px; 
+            display: block; 
+            margin: 20px auto; 
+        }
+
+        .page-content {
+         
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 600px;
+            border-radius: 10px;
+            
+        }
+
+        h1 { 
+            font-size: 2em; 
+            margin-bottom: 20px; 
+        }
+
+        div[id] {
+            padding: 10px;
+            margin: 10px 0;
+            background: skyblue;
+            border-radius: 5px;
+        }
+
+        footer {
+            background-color:#07b2dc;
+            color: white;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h2>I am header with an unordered list of hyperlinks</h2>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </header>
+
+    <section>
+        <img src="rai.jpg" alt="Profile Image">
+        <p>I am an image and I'm all by myself</p>
+    </section>
+
+    <div class="page-content">
+        <h1>Hello! I am a text with the largest heading</h1>
+
+        <div id="about">I am division with id equal to about</div>
+        <div id="education">I am division with id equal to education</div>
+        <div id="skills">I am division with id equal to skills</div>
+        <div id="portfolio">I am division with id equal to portfolio</div>
+        <div id="contact">I am division with id equal to contact</div>
+    </div>
+
+    <footer>
+        I am a footer, the last section of this page
+    </footer>
+
+</body>
+</html>
